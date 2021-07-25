@@ -9,7 +9,7 @@ pipeline {
              //   git 'https://github.com/mstittle/demo1'
 
                 // Run Maven on a Unix agent.
-                bat "npm build"
+                bat "npm run build"
 echo "hello"
             }
          
